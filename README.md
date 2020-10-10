@@ -26,6 +26,7 @@ the incorporation of empirical rules, prioritizing the search for the best empir
 
 
 
+
 The main program big2.py, referee dialer.py, team1.py, which only knows how to play a single card, and team2.py, which plays cards manually, are implemented. team3 has the same 
 
 Player implementation as team1.py, but the Player code is managed in the directory. The referee now has only two cards.
@@ -35,6 +36,7 @@ How to run the program: python3 big2.py -a <attacker> -d <defender> -g <game> at
 For example: python3 big2.py -a Team1 -d team2 -g 1 is to use the 1st deck (preceded by the 0th deck) and have team1 and team2 play. python3 big2.py -a Team1 -d team3 -g 1 is to use the 1st deck of cards and have Team1 and Team3 play a match.
 
 I provided the code of my team : alphapoker.py
+
 
 
 实现了主程序big2.py、裁判员dealer.py、只知道出单张牌的Team1.py、人工出牌Team2.py team3放了同Team1.py一样的Player实现，只不过采用目录的方式管理Player代码。 裁判员现在只存了两幅牌。
