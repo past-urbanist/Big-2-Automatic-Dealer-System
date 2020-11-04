@@ -1,4 +1,4 @@
-# Big-2-Automatic-Dealer-System-
+# Big-2-Automatic-Dealer-System
 
 Using python language, using max-min method and alpha-beta pruning to predict the opponent's card play. 
 
